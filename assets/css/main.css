@@ -1437,7 +1437,7 @@ input, select, textarea {
 
 		}
 
-/* Section/Article */
+/* banner */
 
 	section,
 	article {
@@ -1599,7 +1599,6 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
-
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1787,7 +1786,22 @@ input, select, textarea {
 					padding-top: 0;
 					margin-top: 0;
 				}
-
+				ul.dates .date {
+					display: block;
+					position: relative;
+					left: 0;
+					top: 0em;
+					text-align: left;
+					color: #3150db;
+					font-weight: 500;
+					font-size: 14pt;
+					line-height: 1.5em;
+					border-radius: 20px;
+					padding: 0.25em 0.25em 0.25em 0;
+				}	
+			ul li::marker{
+				color:rgba(255, 255, 255, 0)
+			}
 	ol {
 		list-style: decimal;
 		padding-left: 1.25em;
@@ -2007,27 +2021,27 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
-			color: #eee;
-			color: rgba(255, 255, 255, 0.75);
+			background: #ffffff url("images/overlay.png");
+			color: rgb(8, 12, 73);
+			color: rgba(8, 12, 73, 1);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
-				color: #fff;
+				background: #ffffff url("images/overlay.png");
+				color: rgb(8,12 , 73);
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
-				color: #fff;
+				color: rgb(8, 12, 73);
 			}
 
 		.wrapper.style2 {
-			background: #fff;
+			background: #ebebeb url("images/overlay.png");
 		}
 
 			.wrapper.style2 .title {
-				background: #fff;
-				color: #484d55;
+				background: #ebebeb url("images/overlay.png");
+				color: rgb(8, 12, 73);
 			}
 
 		.wrapper.style3 {
@@ -2065,8 +2079,8 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		position: relative;
-		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		height: 30em;
+		background: url("../../images/banner new2.png") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2082,7 +2096,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 35em;
+			height: 30em;
 		}
 
 /* Logo */
@@ -2142,9 +2156,8 @@ input, select, textarea {
 					display: block;
 					color: #eee;
 					color: rgba(255, 255, 255, 0.75);
-					text-transform: uppercase;
 					text-decoration: none;
-					font-size: 0.7em;
+					font-size: 0.85em;
 					letter-spacing: 0.25em;
 					height: 5em;
 					line-height: 5em;
@@ -2226,7 +2239,7 @@ input, select, textarea {
 
 		#intro p.style2 {
 			font-weight: 700;
-			color: #fff;
+			color: rgb(8, 12, 73);
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			font-size: 2.75em;
@@ -2264,8 +2277,14 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
-			margin: 0 0 0.25em 0;
+			color: #79a0b3;
+			margin: 0 0 0.1em 0;
+			font-size: 1.15em;
+			letter-spacing: 0.05em;
+		}
+		#highlights .highlight h2 {
+			color: #315769;
+			margin: 0 0 0.1em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
 		}
@@ -2276,10 +2295,10 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #282b34 url("images/overlay.png");
+		background: #0a173d url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
-		padding-bottom: 6em;
+		padding-bottom: 1em;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
@@ -2343,7 +2362,7 @@ input, select, textarea {
 			}
 
 		#footer .title {
-			background: #282b34 url("images/overlay.png");
+			background: #0a173d url("images/overlay.png");
 			color: #eee;
 		}
 
@@ -2377,8 +2396,8 @@ input, select, textarea {
 
 	#copyright {
 		text-align: center;
-		padding-top: 6em;
-		margin-top: 6em;
+		padding-top: 3em;
+		margin-top: 1em;
 		border-top: solid 1px rgba(255, 255, 255, 0.05);
 	}
 
