@@ -2314,11 +2314,6 @@ input, select, textarea {
 	}
 	#highlights .highlight div {
 		width:340px;
-		height:350px;
-		display:table-cell; 
-		vertical-align:middle;
-		overflow-x:auto;
-		overflow-y:auto;
 		background-color:#f5f5f5f8;
 		margin:auto;
 		
