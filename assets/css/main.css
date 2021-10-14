@@ -2047,6 +2047,9 @@ input, select, textarea {
 				background: #ebebeb url("images/overlay.png");
 				color: rgb(8, 12, 73);
 			}
+		.wrapper.style2 h3{
+			font-size: 12pt;
+		}
 
 		.wrapper.style3 {
 			background: #f3f3f3 url("images/overlay.png");
