@@ -2067,7 +2067,7 @@ input, select, textarea {
 /* Page Wrapper */
 
 	#page-wrapper > section {
-		margin-bottom: 0;
+		margin: 0;
 	}
 
 /* Header */
