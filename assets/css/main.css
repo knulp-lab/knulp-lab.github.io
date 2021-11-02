@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'PingFang TC', 'Heiti TC', '微軟正黑體','Source Sans Pro', sans-serif;
 		font-weight: 400;
 		color: #000000;
 		font-size: 14pt;
