@@ -2089,7 +2089,8 @@ input, select, textarea {
 		position: relative;
 		height: 30em;
 		background: url("../../images/banner new2.png") center center;
-		background-size: 100%;
+		background-size: contain;
+		background-color: linear-gradient(rgb(4, 17, 44)16.84%, rgb(1, 8, 29)58.67%, rgb(0, 3, 19)100%); 
 		padding: 0;
 	}
 
