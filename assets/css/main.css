@@ -2089,7 +2089,7 @@ input, select, textarea {
 		position: relative;
 		height: 30em;
 		background: url("../../images/banner new2.png") center center;
-		background-size: cover;
+		background-size: 100%;
 		padding: 0;
 	}
 
