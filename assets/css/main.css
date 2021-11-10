@@ -148,7 +148,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-top: solid 3px #ddd;
-		margin: 0.5em 1em 0.5em 0;
+		margin: 0.5em 15px 0.5em 0;
 	}
 
 	sub {
